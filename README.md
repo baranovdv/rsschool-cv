@@ -1,1 +1,1 @@
-# rsschool-cv
+https://baranovdv.github.io/rsschool-cv/cv

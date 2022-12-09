@@ -1,14 +1,22 @@
-### Dmitry Baranov
+# Dmitry Baranov
 ## Junior Frontend Developer
 
-===
+***
 
-languages:
-* C
-* Python
-* JavaScript
+### About me
 
+---
 
+#### Skills
+
+*Programming background
++ C
++ Python
++ JavaScript
+
+*Languages
++English(full proficiency)
++Russian(native)
 
 
 

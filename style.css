@@ -1,6 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    line-height: 1.5;
+  max-width: 1024px;
+  min-width: 500px;
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(221, 219, 219);
+}
+
+.header {
+  width: 100%;
+  align-items: center;
   }
+
+nav {
+  background-color: rgb(195, 181, 168);
+  padding: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0; 
+}
+
+.header_main h1 {
+  margin: 12px 0;
+ 
+}
+
+
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+  text-decoration-color: rgb(164, 63, 63);
+}
+
+
+
+.nav_list {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_list_item {
+  padding: 10px 15px;
+  list-style: none;
+}
+
+.nav_list_item a:hover {
+  text-decoration: underline;
+}
+
+.nav_link {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(164, 63, 63);
+}
+
+.container {
+display: flex;
+max-width: 1024px;
+/* height: 100vh; */
+margin: 0 auto;
+}
+
+.aside {
+  min-width: 240px;
+  display: flex;  
+  flex-direction: column;
+  width: 35%;
+  background-color: rgb(195, 181, 168);
+}
+
+.foto {
+  padding: 10px 20px;
+  width: 100%;
+  min-width: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+  width: 65%;
+  /* height: 100vh; */
+}
+
+.section_left {
+  padding: 0px 20px;
+  width: 100%;
+  color: #333;
+  /* border: 1px solid black; */
+}
+
+.section_right {
+  padding: 0px 20px;
+  width: 100%;
+  padding-left: 20px;
+  color: #333;
+  /* border: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(195, 181, 168);
+  font-size: 24px;
+  padding: 10px 20px;  
+}
+
+.header_main {
+  text-align: center;
+}
+
+.header_main h2 {
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_rss_logo {
+  width: 70px;
+  background-image: url(./assets/img/rs_school_js.svg);
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+.footer_gh_logo {
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/img/github-mark.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.skills_list {
+  padding-left: 10px;
+  list-style: inside;
+}
+
+.languages_list {
+  padding-left: 10px;
+  list-style: inside;
+}

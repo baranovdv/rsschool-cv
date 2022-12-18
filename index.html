@@ -4,8 +4,96 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="list nav_list">
+                <li class="nav_list_item">About me</li>
+                <li class="nav_list_item">Contacts</li>
+                <li class="nav_list_item">Code example</li>
+                <li class="nav_list_item">Skills</li>
+                <li class="nav_list_item">Education</li>
+                <li class="nav_list_item">Languages</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="aside">
+            <section class="section_left" id="foto">
+                <img class="foto" src="./assets/img/ava2.jpg" alt="foto">
+                
+            </section>
+
+            <section class="section_left" id="contacts">  
+                <h2>Contacts</h2>
+                    <ul class="contacts_list">
+                        <li class="contacts_list_item" id="icon_email">baranov.d.v.1988@gmail.com</li>
+                        <li class="contacts_list_item">@DmitryBaranov212</li>
+                        <li class="contacts_list_item"><a href="https://www.linkedin.com/in/dmitry-baranov-576a8190/">Linkedin</a></a></li>
+                    </ul>
+
+            </section>            
+            <section class="section_left" id="skills">
+                <h2>Skills</h2>
+                <ul class="skills_list">
+                    <li class="skill_list_item">HTML</li>
+                    <li class="skill_list_item">CSS</li>
+                    <li class="skill_list_item">JavaScript</li>
+                    <li class="skill_list_item">Git</li>
+                </ul>
+            </section>
+
+        </aside>  
+        <main class="main">
+            <div class="header_main">
+                <h1>Dmitry Baranov</h1>
+                <h2>Frontend developer</h2>
+            </div>
+            <section class="section_right" id="about">
+                <h2>About me</h2> 
+                <p>I'm experienced hardware&software electronics developer. Also I worked as a field service engineer in international company for 8+ years. Now I began my new carrier as a web-developer. I'm very excited and ready for hard-working to be successfull in this area too.</p> 
+            </section>
+            <section class="section_right" id="code_example">
+                <h2>Code example</h2>
+                <p><em>Return 'fizz' if n divisible by 3, Return 'buzz' if n divisible by 5, Return 'fizzbuzz' if n divisible by 15</em></p>
+                <pre class="pre">
+                    <code>
+let fizzBuzz = function(n) {
+    return new Array(n).fill(0).map((a, i) => 
+    (++i % 3 ? '' : 'Fizz') +
+    (i % 5 ? '' : 'Buzz') ||''  + i);
+};
+                    </code>
+                </pre>
+            </section>
+            <section class="section_right" id="education">
+                <h2>Education</h2>
+                <p>Moscow Institute of Electronic Engineering</p>
+            </section>
+            <section class="section_right" id="language">
+                <h2>Languages</h2>
+                    <ul class="languages_list">
+                        <li class="languages_list_item">English - B1</li>
+                        <li class="languages_list_item">Russian - Native</li>
+                        <li class="languages_list_item">Italian - Basic</li>
+                    </ul>
+            </section>
+
+
+        </main>
+   </div>
+   
+   <footer class="footer">
+        <div class="container_footer">
+            <strong>2022</strong>
+            <a href="https://rs.school/js/" class="footer_rss_logo"></a>
+        </div>
+    </footer>
 </body>
 </html>

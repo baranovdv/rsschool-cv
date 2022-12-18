@@ -6,36 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/img/favicon.ico">
+    <!-- <link rel="icon" href="./assets/img/favicon.ico"> -->
 </head>
 <body>
-
     <header class="header">
         <nav class="nav">
             <ul class="list nav_list">
-                <li class="nav_list_item">About me</li>
-                <li class="nav_list_item">Contacts</li>
-                <li class="nav_list_item">Code example</li>
-                <li class="nav_list_item">Skills</li>
-                <li class="nav_list_item">Education</li>
-                <li class="nav_list_item">Languages</li>
+                <li class="nav_list_item"><a href="#about" class="nav_link">About me</a></li>
+                <li class="nav_list_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                <li class="nav_list_item"><a href="#code_example" class="nav_link">Code example</a></li>
+                <li class="nav_list_item"><a href="#skills" class="nav_link">Skills</a></li>
+                <li class="nav_list_item"><a href="#education" class="nav_link">Education</a></li>
+                <li class="nav_list_item"><a href="#languages" class="nav_link">Languages</a></li>
             </ul>
         </nav>
     </header>
 
     <div class="container">
         <aside class="aside">
-            <section class="section_left" id="foto">
                 <img class="foto" src="./assets/img/ava2.jpg" alt="foto">
-                
-            </section>
 
             <section class="section_left" id="contacts">  
                 <h2>Contacts</h2>
                     <ul class="contacts_list">
-                        <li class="contacts_list_item" id="icon_email">baranov.d.v.1988@gmail.com</li>
-                        <li class="contacts_list_item">@DmitryBaranov212</li>
-                        <li class="contacts_list_item"><a href="https://www.linkedin.com/in/dmitry-baranov-576a8190/">Linkedin</a></a></li>
+                        <li class="contacts_list_item" id="icon_email"><strong>E-mail: </strong>baranov.d.v.1988@gmail.com</li>
+                        <li class="contacts_list_item"><strong>Telegram: </strong> @DmitryBaranov212</li>
+                        <li class="contacts_list_item"><a href="https://www.linkedin.com/in/dmitry-baranov-576a8190/">Linkedin</a></li>
+                        <li class="contacts_list_item"><a href="https://github.com/baranovdv/">Github</a></li>
                     </ul>
 
             </section>            
@@ -48,8 +45,8 @@
                     <li class="skill_list_item">Git</li>
                 </ul>
             </section>
-
         </aside>  
+
         <main class="main">
             <div class="header_main">
                 <h1>Dmitry Baranov</h1>
@@ -76,7 +73,7 @@ let fizzBuzz = function(n) {
                 <h2>Education</h2>
                 <p>Moscow Institute of Electronic Engineering</p>
             </section>
-            <section class="section_right" id="language">
+            <section class="section_right" id="languages">
                 <h2>Languages</h2>
                     <ul class="languages_list">
                         <li class="languages_list_item">English - B1</li>
@@ -84,16 +81,16 @@ let fizzBuzz = function(n) {
                         <li class="languages_list_item">Italian - Basic</li>
                     </ul>
             </section>
-
-
         </main>
    </div>
    
    <footer class="footer">
         <div class="container_footer">
             <strong>2022</strong>
-            <a href="https://rs.school/js/" class="footer_rss_logo"></a>
+            <a class="footer_gh_logo" href="https://github.com/baranovdv/" ></a>
+            <a class="footer_rss_logo" href="https://rs.school/js/" ></a>
         </div>
     </footer>
+
 </body>
 </html>

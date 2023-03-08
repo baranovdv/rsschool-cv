@@ -5,11 +5,8 @@
 body {
   max-width: 1024px;
   min-width: 500px;
-  min-height: 100vh;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: block;
   background-color: rgb(221, 219, 219);
 }
 
@@ -138,14 +135,15 @@ margin: 0 auto;
   width: 70px;
   background-image: url(./assets/img/rs_school_js.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  object-fit: contain;
 }
 
 .footer_gh_logo {
   width: 30px;
+  height: 30px;
   background-image: url(./assets/img/github-mark.png);
   background-repeat: no-repeat;
-  background-size: 100%;
+  object-fit: cover;
 }
 
 .pre {
@@ -162,60 +160,4 @@ margin: 0 auto;
 .languages_list {
   padding-left: 10px;
   list-style: inside;
-}
-
-.contacts_list_item {
-
-}
-
-#icon_email::before {
-  content: '';
-  position: relative;
-  top: 5px;
-  display: inline-block;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  background-image: url(./assets/img/mail_icon.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-#icon_telegram::before {
-  content: '';
-  position: relative;
-  top: 5px;
-  display: inline-block;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  background-image: url(./assets/img/telegram_icon.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-#icon_linkedin::before {
-  content: '';
-  position: relative;
-  top: 7px;
-  display: inline-block;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  background-image: url(./assets/img/linkedin_icon.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-#icon_github::before {
-  content: '';
-  position: relative;
-  top: 6px;
-  display: inline-block;
-  margin-right: 10px;
-  width: 25px;
-  height: 25px;
-  background-image: url(./assets/img/github-mark.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
